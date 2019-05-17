@@ -2,7 +2,7 @@
 /**
  * Gugliotti Media Manager
  */
-namespace Gugliotti\MediaManager\Controller\Adminhtml;
+namespace Gugliotti\MediaManager\Controller\Adminhtml\MediaManager;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
