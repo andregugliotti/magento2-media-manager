@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Gugliotti_MediaManager::media" title="Media" translate="title"
+            module="Gugliotti_MediaManager" sortOrder="100" parent="Magento_Backend::content"
+            resource="Gugliotti_MediaManager::media" />
+        <add id="Gugliotti_MediaManager::media_manager" title="Media Manager"
+            translate="title" module="Gugliotti_MediaManager" sortOrder="10"
+            parent="Gugliotti_MediaManager::media_manager" action="gugliotti_media_manager/media_manager"
+            resource="Gugliotti_MediaManager::media_manager" />
+    </menu>
+</config>
