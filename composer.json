@@ -1,0 +1,26 @@
+{
+  "name": "andregugliotti/magento2-media-manager",
+  "version": "0.1.0",
+  "description": "Magento 2 Media Manager",
+  "type": "magento2-module",
+  "keywords": ["magento 2, media, media manager"],
+  "homepage": "https://github.com/andregugliotti/magento2-media-manager",
+  "support": {
+    "docs": "https://github.com/andregugliotti/magento2-media-manager/README.md"
+  },
+  "license": "GPL3",
+  "authors": [
+    {
+      "name": "Andre Gugliotti",
+      "email": "andre@gugliotti.com.br"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Gugliotti\\MediaManager\\": "src\\"
+    }
+  }
+}
